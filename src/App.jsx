@@ -3,8 +3,9 @@ import Highlights from "./components/Highlights.jsx"
 import Navbar from "./components/Navbar.jsx"
 import PhoneModel from "./components/PhoneModel.jsx"
 
-const App = () => {
+import * as Sentry from '@sentry/react'
 
+const App = () => {
   return (
     <main className="bg-black">
       <Navbar />
@@ -15,4 +16,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Sentry.withProfiler(App)

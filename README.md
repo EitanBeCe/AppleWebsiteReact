@@ -11,6 +11,7 @@ This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS.
 - GSAP (Greensock)
 - Vite
 - Tailwind CSS
+- Sentry
 
 ## <a name="features">🔋 Features</a>
 
