@@ -1,3 +1,4 @@
+import Features from "./components/Features.jsx"
 import Hero from "./components/Hero.jsx"
 import Highlights from "./components/Highlights.jsx"
 import Navbar from "./components/Navbar.jsx"
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <Highlights />
       <PhoneModel /> 
+      <Features />
     </main>
   )
 }

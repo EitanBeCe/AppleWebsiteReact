@@ -7,7 +7,7 @@ import * as THREE from 'three'
 import { Canvas } from "@react-three/fiber"
 import { View } from "@react-three/drei"
 import { models, sizes } from '../constants/index'
-import { animateWithGsapTimeline } from "../utils/Animations.js"
+import { animateWithGsap, animateWithGsapTimeline } from "../utils/Animations.js"
 
 const PhoneModel = () => {
 	const [size, setSize] = useState('small')
@@ -50,16 +50,18 @@ const PhoneModel = () => {
 	
 
 	useGSAP(() => {
-		gsap.to('#heading', { 
-			y: 0,
-			opacity: 1,
-			duration: 1,
-			scrollTrigger: {
-				trigger: "#heading",
-				start: 'bottom bottom',
-				// toggleActions: "play none none none", // запускается один раз
-			}
-		})
+		// gsap.to('#heading', { 
+		// 	y: 0,
+		// 	opacity: 1,
+		// 	duration: 1,
+		// 	scrollTrigger: {
+		// 		trigger: "#heading",
+		// 		start: 'bottom bottom',
+		// 		toggleActions: 'restart reverse restart reverse',
+		// 	}
+		// })
+
+		animateWithGsap('#heading', {y: 0, opacity: 1})
 	}, [])
 
   return (
