@@ -1,6 +1,7 @@
 import Features from "./components/Features.jsx"
 import Hero from "./components/Hero.jsx"
 import Highlights from "./components/Highlights.jsx"
+import HowItWorks from "./components/HowItWorks.jsx"
 import Navbar from "./components/Navbar.jsx"
 import PhoneModel from "./components/PhoneModel.jsx"
 
@@ -14,6 +15,7 @@ const App = () => {
       <Highlights />
       <PhoneModel /> 
       <Features />
+      <HowItWorks />
     </main>
   )
 }
