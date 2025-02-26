@@ -7,7 +7,7 @@ import * as THREE from 'three'
 import { Canvas } from "@react-three/fiber"
 import { View } from "@react-three/drei"
 import { models, sizes } from '../constants/index'
-import { animateWithGsap, animateWithGsapTimeline } from "../utils/Animations.js"
+import { animateWithGsap, animateWithGsapTimeline } from "../utils/animations.js"
 
 const PhoneModel = () => {
 	const [size, setSize] = useState('small')
