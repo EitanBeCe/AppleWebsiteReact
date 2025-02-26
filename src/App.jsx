@@ -1,4 +1,5 @@
 import Features from "./components/Features.jsx"
+import Footer from "./components/Footer.jsx"
 import Hero from "./components/Hero.jsx"
 import Highlights from "./components/Highlights.jsx"
 import HowItWorks from "./components/HowItWorks.jsx"
@@ -16,6 +17,7 @@ const App = () => {
       <PhoneModel /> 
       <Features />
       <HowItWorks />
+      <Footer />
     </main>
   )
 }
