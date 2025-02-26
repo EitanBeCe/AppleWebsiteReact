@@ -3,7 +3,7 @@ import gsap from 'gsap'
 import React, { useRef } from 'react'
 import { explore1Img, explore2Img, exploreVideo } from '../utils/index.js'
 import { animateWithGsap } from '../utils/Animations.js'
-
+ 
 const Features = () => {
 	const videoRef = useRef()
 	useGSAP(() => {
