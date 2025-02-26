@@ -1,14 +1,14 @@
+<!-- # npm run dev -->
+
 <h3 align="center">iPhone 15 Website</h3>
 
-Main Page
-
-![Main page](public/assets/images/appleReadme1.png)
-
-Movable 3js Model
-
-![3D Model](public/assets/images/appleReadme2.png)
-
 This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.
+
+## 🌟 Main Page  
+<img src="public/assets/images/appleReadme1.png" alt="Main page" width="600">
+
+## 🎨 Movable 3D Model  
+<img src="public/assets/images/appleReadme2.png" alt="3D Model" width="600">
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -32,7 +32,3 @@ This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS.
 👉 **Completely Responsive**: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.
 
 and many more, including code architecture and reusability 
-
-
-
-# npm run dev
